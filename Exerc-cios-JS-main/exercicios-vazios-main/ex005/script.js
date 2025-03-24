@@ -1,4 +1,6 @@
-var numero1 = Number(prompt("Digite um Numero"))
-var numero2 = Number(prompt("Digite outro Numero"))
+var primeiroValor = Number(prompt("Digite um Numero"))
+var segundoValor = Number(prompt("Digite outro Numero"))
 
-alert(numero1+numero2)
+var soma = primeiroValor + segundoValor
+
+alert(`A soma de ${primeiroValor} + ${segundoValor} é igual a ${soma}`)

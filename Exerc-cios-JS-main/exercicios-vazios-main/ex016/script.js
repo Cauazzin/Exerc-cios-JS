@@ -1,12 +1,15 @@
 var numero = Number(prompt("Digite um Numero"))
 
-alert(numero*1)
-alert(numero*2)
-alert(numero*3)
-alert(numero*4)
-alert(numero*5)
-alert(numero*6)
-alert(numero*7)
-alert(numero*8)
-alert(numero*9)
-alert(numero*10)
+
+alert(`Tabuada do ${numero}
+    
+${numero} x 1 = ${numero * 1}
+${numero} x 2 = ${numero * 2}
+${numero} x 3 = ${numero * 3}
+${numero} x 4 = ${numero * 4}
+${numero} x 5 = ${numero * 5}
+${numero} x 6 = ${numero * 6}
+${numero} x 7 = ${numero * 7}
+${numero} x 8 = ${numero * 8}
+${numero} x 9 = ${numero * 9}
+${numero} x 10 = ${numero * 10}`)
